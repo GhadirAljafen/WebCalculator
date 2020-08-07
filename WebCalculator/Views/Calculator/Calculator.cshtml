@@ -1,0 +1,51 @@
+﻿   <head>
+        @{
+            ViewBag.Title = "Calculator";
+            <link rel="stylesheet" href="~/Content/Style.css">
+            <title> Standard Calculator</title>
+        }
+    </head>
+
+<body>
+    <div class="content">
+        <h2 class="title"> Standard Calculator </h2>
+        <div id="result"></div>
+        <div id="keys"></div>
+        <div id="history">
+            <p id="history_value"></p>
+        </div>
+        <div id="output">
+            <p id="output_value"></p>
+        </div>
+            <button class="btnOperation" style="width:160px" id="clear_entry">CE </button>
+            <button class="btnOperation" id="clear"> C </button>
+            <button class="btnOperation" id="/"> &#247 </button>
+            <br />
+            <button class="button" id="7"> 7 </button>
+            <button class="button" id="8"> 8 </button>
+            <button class="button" id="9"> 9 </button>
+            <button class="btnOperation" id="*"> &times; </button>
+            <br />
+
+            <button class="button" id="4"> 4 </button>
+            <button class="button" id="5"> 5 </button>
+            <button class="button" id="6"> 6 </button>
+            <button class="btnOperation" id="-"> - </button>
+            <br />
+
+            <button class="button" id="1"> 1</button>
+            <button class="button" id="2"> 2 </button>
+            <button class="button" id="3"> 3 </button>
+            <button class="btnOperation" id="+"> + </button>
+            <br />
+
+            <button class="button" id="0" style="width:160px"> 0 </button>
+            <button class="btnOperation" id ="."> . </button>
+            <button class="btnOperation" id="=" style="background-color:lightblue" > = </button>
+            <br />
+        </div>
+
+    <script src="~/Scripts/calculator.js"></script>
+</body>
+
+
